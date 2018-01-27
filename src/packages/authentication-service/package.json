@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "fbjs": "^0.8.16",
+    "jsonwebtoken": "^8.1.1"
+  },
+  "name": "authentication-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
