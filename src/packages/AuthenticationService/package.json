@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "fbjs": "^0.8.16",
+    "jsonwebtoken": "^8.1.1"
+  }
+}
