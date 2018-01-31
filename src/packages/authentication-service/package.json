@@ -1,7 +1,7 @@
 {
   "name": "@j.u.p.iter/authentication-service",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "modules/index.js",
   "author": "",
   "license": "ISC",
   "description": "",
