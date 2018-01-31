@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@j.u.p.iter/modules-builder": "^1.0.0",
+    "@j.u.p.iter/modules-builder": "^1.0.1",
     "fbjs": "^0.8.16",
     "jsonwebtoken": "^8.1.1"
   },
@@ -9,7 +9,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node ./scripts/build"
   },
   "author": "",
   "license": "ISC",
