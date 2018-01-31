@@ -1,17 +1,22 @@
 {
+  "name": "@j.u.p.iter/authentication-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
     "@j.u.p.iter/modules-builder": "^1.0.1",
     "fbjs": "^0.8.16",
     "jsonwebtoken": "^8.1.1"
   },
-  "name": "authentication-service",
-  "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
   "scripts": {
     "build": "node ./scripts/build"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  }
 }
