@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@j.u.p.iter/modules-builder@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@j.u.p.iter/modules-builder/-/modules-builder-1.0.0.tgz#691a68c90775698db52480128b5feca58c511e85"
+
 asap@~2.0.3:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"

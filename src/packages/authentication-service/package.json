@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@j.u.p.iter/modules-builder": "^1.0.0",
     "fbjs": "^0.8.16",
     "jsonwebtoken": "^8.1.1"
   },
