@@ -4,6 +4,8 @@ import * as invariant from 'fbjs/lib/invariant';
 
 class AuthenticationService {
 
+  _config = null;
+
   constructor(authConfig) {
     this._config = authConfig;
   }
@@ -22,15 +24,16 @@ class AuthenticationService {
   }
 
   createToken(options) {
-    const { id, role } = options,
-          userData = { userId: id, role };
+    const { id, role } = options;
+    const userData = { userId: id, role };
+    const { secret } = this._config;
 
     invariant(
-      this._config.secret,
+      secret,
       'Authentication secret should be declared.',
     );
 
-    return id && role ? jwt.sign(userData, this._config.secret) : null;
+    return id && role ? jwt.sign(userData, secret) : null;
   }
 
   isSignedIn() { return true; }
