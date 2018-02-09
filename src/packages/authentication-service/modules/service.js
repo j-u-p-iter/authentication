@@ -1,5 +1,5 @@
 import * as jwt from 'jsonwebtoken';
-import * as invariant from 'fbjs/lib/invariant';
+import invariant from 'fbjs/lib/invariant';
 
 
 class AuthenticationService {
