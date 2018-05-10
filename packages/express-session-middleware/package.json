@@ -1,0 +1,20 @@
+{
+  "name": "@j.u.p.iter/session-middleware",
+  "version": "1.0.0",
+  "description": "Session middleware for express",
+  "main": "cmjs/index.js",
+  "scripts": {
+    "build": "node ./scripts/build"
+  },
+  "author": "j.u.p.iter",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "@j.u.p.iter/modules-builder": "^1.0.1"
+  }
+}
