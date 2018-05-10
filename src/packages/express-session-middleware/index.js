@@ -1,4 +1,4 @@
-class SessionMiddleware {
+class ExpressSessionMiddleware {
 
   _parseAuthorizationHeader(header) {
     return header.split(' ')[1] || null;
@@ -25,10 +25,10 @@ class SessionMiddleware {
   }
 
   create() {
-    return (req, res, next) =>
-      this._parseTokenData(req, res, next);
+    return (req, res, next) => this._parseTokenData(req, res, next);
   }
 
 }
 
-export default SessionMiddleware;
+
+export default ExpressSessionMiddleware;
