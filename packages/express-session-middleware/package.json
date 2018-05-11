@@ -1,6 +1,6 @@
 {
   "name": "@j.u.p.iter/session-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Session middleware for express",
   "main": "cmjs/index.js",
   "scripts": {
