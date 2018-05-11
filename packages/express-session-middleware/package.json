@@ -14,6 +14,9 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@j.u.p.iter/modules-builder": "^1.0.1"
   }
