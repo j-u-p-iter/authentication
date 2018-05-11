@@ -1,5 +1,5 @@
 {
-  "name": "@j.u.p.iter/session-middleware",
+  "name": "@j.u.p.iter/express-session-middleware",
   "version": "1.0.1",
   "description": "Session middleware for express",
   "main": "cmjs/index.js",
