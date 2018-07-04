@@ -1,6 +1,6 @@
 {
   "name": "@j.u.p.iter/authentication-service",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "cmjs/index.js",
   "author": "j.u.p.iter",
   "license": "ISC",
